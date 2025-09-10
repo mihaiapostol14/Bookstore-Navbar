@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+  }
+  
+  nav {
+    background: #4b2e83; /* deep purple book vibe */
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: #ffcc00; /* gold hover effect */
+  }
+  
+  .cart {
+    background: #ffcc00;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    color: #4b2e83;
+    font-weight: bold;
+  }
+  
